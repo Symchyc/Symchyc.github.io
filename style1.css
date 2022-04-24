@@ -1,0 +1,302 @@
+    header {
+        background: #3a7bd5;
+        background: -webkit-linear-gradient(to right, #3a7bd5, #3a6073);
+        background: linear-gradient(to right, #3a7bd5, #3a6073);
+        color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 60px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    
+    main {
+        background: #bdc3c7;
+        background: -webkit-linear-gradient(to right, #bdc3c7, #2c3e50);
+        background: linear-gradient(to right, #bdc3c7, #2c3e50);
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -60px;
+        margin-bottom: -100px;
+    }
+    
+    #header>a {
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    h2 {
+        font-size: 40px;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    h4 {
+        font-size: 16px;
+    }
+    
+    #networks {
+        float: right;
+        font-size: 30px;
+        margin-right: 30px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    #navi>ul>li {
+        display: inline;
+        word-spacing: normal;
+        text-align: center;
+    }
+    
+    #navi>ul {
+        word-spacing: 15px;
+        font-size: 20px;
+    }
+    
+    #navi>ul>li>a {
+        color: rgb(255, 255, 255);
+    }
+    
+    #navi>ul>li>a:hover {
+        color: white;
+        padding: 10px 15px;
+        transition-duration: .5s;
+    }
+    
+    header img {
+        border-radius: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    #actor {
+        height: 60vh;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    #life h2 {
+        text-align: center;
+    }
+    
+    #life {
+        color: white;
+        padding-top: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    #life p {
+        text-align: center;
+    }
+    
+    #actor {
+        color: white;
+        display: block;
+        text-align: justify;
+        height: 60vh;
+    }
+    
+    #actor h2 {
+        text-align: center;
+    }
+    
+    #actor p {
+        text-align: center;
+    }
+    
+    #actor img {
+        float: right;
+        margin-top: auto;
+        height: 400px;
+        border-radius: 15%;
+        margin-right: 150px;
+        margin: 0px 40px;
+        width: 500px;
+    }
+    
+    #actor img:hover {
+        width: 550px;
+        transition-duration: .5s;
+    }
+    
+    #president {
+        color: white;
+        display: block;
+        text-align: justify;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    #president h2 {
+        text-align: center;
+    }
+    
+    #president p {
+        text-align: center;
+    }
+    
+    #president h3 {
+        text-align: center;
+    }
+    
+    #campaign {
+        height: 50vh;
+    }
+    
+    #campaign img {
+        float: left;
+        margin-top: auto;
+        height: 450px;
+        border-radius: 15%;
+        margin: 0px 40px;
+        width: 500px;
+    }
+    
+    #campaign img:hover {
+        width: 550px;
+        transition-duration: .5s;
+    }
+    
+    .achieve img {
+        width: 100%;
+    }
+    
+    #achievments h2 {
+        text-align: center;
+    }
+    
+    #achievments {
+        text-align: center;
+        height: 700px;
+        padding-top: 60px;
+    }
+    
+    #achievments .achieve {
+        border: solid 1px white;
+        box-shadow: 0 0 10px black;
+        display: inline-block;
+        width: 25%;
+        margin-right: 20px;
+    }
+    
+    #achievments p {
+        color: #fefefe;
+    }
+    
+    #achievments h4 {
+        color: #777171;
+    }
+    
+    #achievments .achieve {
+        border: outset 3px rgb(235, 224, 224);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        width: 22%;
+        margin-right: 20px;
+    }
+    
+    #achievments .achieve:hover {
+        box-shadow: 0px 0px 3px 3px rgb(4, 54, 95);
+        color: rgb(0, 0, 0);
+    }
+    
+    .achieve :hover h3 {
+        color: steelblue;
+    }
+    
+    .relation-item img {
+        float: left;
+        border-radius: 30%;
+    }
+    
+    .relation-item {
+        border: 3px outset rgb(230, 232, 236);
+        display: inline-block;
+        margin-bottom: 50px;
+    }
+    
+    .relation-item h4 {
+        text-align: center;
+    }
+    
+    #Foreign-relations {
+        margin-top: -200px;
+    }
+    
+    @media screen and (max-device-width:768px) {
+        header img {
+            height: 33%;
+            width: auto;
+            border-radius: 15%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #actor {
+            height: 30vh;
+        }
+        #campaign {
+            height: 35vh;
+        }
+        #actor p {
+            font-size: 17px;
+        }
+        #campaign p {
+            font-size: 17px;
+        }
+        #president h2 {
+            text-align: center;
+        }
+        #actor {
+            height: 45vh;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+    }
+    
+    @media screen and (max-device-width:600px) {
+        header img {
+            height: 33%;
+            width: auto;
+            border-radius: 15%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #campaign {
+            margin-bottom: -500px;
+        }
+        #president h2 {
+            text-align: center;
+        }
+        #actor {
+            margin-left: 30px;
+            margin-right: 30px;
+            margin-bottom: -460px;
+        }
+    }
+    
+    @media screen and (max-device-width:1016px) {
+        #navi>ul {
+            font-size: 20px;
+            word-spacing: 7px;
+        }
+        #campaign {
+            height: 40vh;
+        }
+        #actor {
+            height: 45vh;
+        }
+    }
